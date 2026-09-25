@@ -6,7 +6,7 @@ os = "linux"
 
     [[GCCToolchain.download]]
     sha256 = "d57d3ff3e48abf620d7d262668720be4e9b0e0b6dbe67f8157f925ad2ea41400"
-    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+0/GCCToolchain.v15.2.0.aarch64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.aarch64-linux-gnu.tar.gz"
 [[GCCToolchain]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -16,7 +16,7 @@ os = "linux"
 
     [[GCCToolchain.download]]
     sha256 = "6019f1a8351938ad7dd8a112403682260e49b826db6c155c91c09fc2547f255a"
-    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+0/GCCToolchain.v15.2.0.armv7l-linux-gnueabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.armv7l-linux-gnueabihf.tar.gz"
 [[GCCToolchain]]
 arch = "i686"
 git-tree-sha1 = "a656d17c925fd022fd70a3f62d3fb618beec9cbb"
@@ -25,7 +25,15 @@ os = "linux"
 
     [[GCCToolchain.download]]
     sha256 = "e1dfe09b318e3ae1c59cd37ca74ddd318ac36e225bab9def10be42d5ea066086"
-    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+0/GCCToolchain.v15.2.0.i686-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.i686-linux-gnu.tar.gz"
+[[GCCToolchain]]
+arch = "i686"
+git-tree-sha1 = "3cb09e68313bf31bbf914c4590f4e86a406c3aae"
+os = "windows"
+
+    [[GCCToolchain.download]]
+    sha256 = "28dfe67262c82d9d1f277de2363cb47a363a393f76176070f76a49b9e8ca8547"
+    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.i686-w64-mingw32.tar.gz"
 [[GCCToolchain]]
 arch = "powerpc64le"
 git-tree-sha1 = "dbc8fb9603446274fdeaebc2c72a79b33564a701"
@@ -34,7 +42,7 @@ os = "linux"
 
     [[GCCToolchain.download]]
     sha256 = "82ffccb1e407dd67b96bcc532c072dffbfb3fff1eea726295b3f113f73fa6714"
-    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+0/GCCToolchain.v15.2.0.powerpc64le-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.powerpc64le-linux-gnu.tar.gz"
 [[GCCToolchain]]
 arch = "x86_64"
 git-tree-sha1 = "6dfaa94b7dd419db7d02f4a389be510b8166e08f"
@@ -43,4 +51,12 @@ os = "linux"
 
     [[GCCToolchain.download]]
     sha256 = "7897f37610a203a3829ca0f10a2ca15645f4c1207347bf7ca0ecaddba9f92961"
-    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+0/GCCToolchain.v15.2.0.x86_64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.x86_64-linux-gnu.tar.gz"
+[[GCCToolchain]]
+arch = "x86_64"
+git-tree-sha1 = "ba9de446139e3f4e670b2c63300bcaf4bc6675cf"
+os = "windows"
+
+    [[GCCToolchain.download]]
+    sha256 = "24fe892d02be842c6e9f620c1448b5f0a1d52c7b3091d6e14a487989f2cd7e3c"
+    url = "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.x86_64-w64-mingw32.tar.gz"
