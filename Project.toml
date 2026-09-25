@@ -1,6 +1,6 @@
 name = "GCCToolchain_jll"
 uuid = "d52b11df-85af-5689-9826-d972373ea583"
-version = "15.2.0+1"
+version = "15.2.0+2"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
